@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #d0e0e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 290px;
+    width: 250px;
+    background-color: #EDF2F7;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}  
+
+.cir1{
+    height: 50px;
+    width: 50px;
+    border: 4px solid #ffffff;
+   background-image: url(./asset/image/satya.jpeg);
+   background-size: cover;
+    border-radius: 50%;
+    margin-top: -33px;
+    margin-left: 15px;
+}
+a{
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+    background-color: #1A202C;
+    border: 2px solid #1A202C;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 3px 22px 3px 22px;
+    margin-left: 140px;
+    position: relative;
+    bottom: 35px;
+   
+}
+a:hover{
+    background-color: #1DA1F2;
+   
+}
+.head{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 100px;
+    background-color:#1DA1F2 ;
+}
+.hed1{
+    font-size: small;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.log1{
+    margin-top: -12px;
+    margin-left: 5px;
+    height: 16px;
+    position: relative;
+    left: 138px;
+    bottom: 14px;
+}
+.hed2{
+    font-weight: lighter;
+    font-size: xx-small;
+    color:rgba(13, 102, 219, 0.8);
+    margin-top: -18px;
+    margin-left: 10px;
+}
+.about{
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: xx-small;
+}
+.flow{
+    padding-left: 10px;
+    padding-top: 15px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:xx-small;
+}
